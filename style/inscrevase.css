@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #e4f9f5, #30e3ca);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(../img/new-image-login-agro-fertil.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  
+  .container {
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.3); 
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100px;
+    height: auto;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .input-group {
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  .input-group .icon{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px;
+  }
+
+  .input-group input {
+    width: 83%;
+    padding: 10px 10px 10px 40px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .inscrevase-button {
+    display: inline-block;
+    text-align: center;
+    width: 93%; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    background: #006633; 
+    color: #000; 
+    text-decoration: none; 
+    font-weight: bold; 
+    cursor: pointer; 
+  }
+  
+  .inscrevase-button:hover {
+    background: #26874E; 
+  }
+  
+
+  
+  
