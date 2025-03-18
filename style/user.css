@@ -57,10 +57,14 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.card p {
+.card a {
     font-weight: bold;
-    margin-top: 10px;
+    display: block;
+    margin-top: 10px; 
+    text-decoration: none;
+    color: #000;
 }
+
 
 main{
     position: relative;
