@@ -18,7 +18,6 @@ header .logo img {
     width: 50px; 
 }
 
-
 nav ul {
     display: flex;
     list-style: none;
@@ -84,63 +83,30 @@ nav ul li a {
     background-color: #0b4a1a;
 }
 
-
-.formulario-container {
+.upload-container {
     padding: 40px;
+    margin-top: 20px;
+    min-height: calc(100vh - 200px);
     background-color: #f9f9f9;
-    min-height: calc(100vh - 160px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.formulario-container h1 {
-    margin-bottom: 20px;
+.upload-section {
+    margin-bottom: 30px;
+}
+
+.upload-section h3 {
     color: #0d541d;
+    margin-bottom: 10px;
 }
 
-.formulario {
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 500px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.formulario label {
-    font-weight: bold;
-    color: #333;
-}
-
-.formulario input {
+.upload-section input[type="file"] {
     padding: 10px;
+    border-radius: 5px;
+    background-color: white;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    outline-color: #0d541d;
+    width: 100%;
+    max-width: 400px;
 }
-
-.botao-formulario {
-    background-color: #0d541d;
-    color: white;
-    border: none;
-    padding: 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-}
-
-.botao-formulario:hover {
-    background-color: #0b4a1a;
-}
-
-
 
 footer {
     background-color: #0d541d;

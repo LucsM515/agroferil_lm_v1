@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area</title>
+    <link rel="stylesheet" href="style/area.css">
+</head>
+<body>
+       
+    <header>
+        <div class="logo">
+            <img src="../img/logo-agro-fertil.jpg" alt="Logo AgroFertil">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Mercado</a></li>
+                <li><a href="#">Soluções</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <a href="user.html" class="botao-voltar-topo">← Voltar</a>
+
+    <main class="formulario-container">
+        <h1>Envio de Documentos</h1>
+        <form class="formulario" enctype="multipart/form-data">
+            <label for="inscricao">Inscrição Estadual</label>
+            <input type="text" id="inscricao" name="inscricao" required>
+    
+            <label for="notas">Notas de Venda</label>
+            <input type="file" id="notas" name="notas" multiple required>
+    
+            <label for="daf-caf">DAF e CAF</label>
+            <input type="file" id="daf-caf" name="daf_caf" multiple required>
+    
+            <button type="submit" class="botao-formulario">Enviar Documentos</button>
+        </form>
+    </main>
+    
+
+    <footer>
+        <p>@AgroFertil 2025</p>
+        <a href="#">Todos os direito reservados</a>
+    </footer>
+    
+</body>
+</html>
