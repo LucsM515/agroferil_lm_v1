@@ -6,10 +6,10 @@ document.getElementById("indice-select").addEventListener("change", function() {
 
     // Dicionário com imagens para cada índice
     const imagens = {
-        "NDVI": "img/Mapas - 02.01.2025.png",
-        "NDWI": "img/Mapas - 02.01.2025_2.png",
-        "GNDVI": "img/Mapas - 02.01.2025_3.png",
-        "NDRE": "img/Mapas - 02.01.2025_4.png"
+        "NDVI": "img/NDVI.jpg",
+        "NDWI": "img/NDWI.jpg",
+        "GNDVI": "img/GNDVI.jpg",
+        "NDRE": "img/NDRE.jpg"
     };
 
     // Dicionário com descrições para cada índice
